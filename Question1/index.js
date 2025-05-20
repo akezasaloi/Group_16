@@ -17,8 +17,8 @@ class Recipe {
       return recipe;               	
     }
     
-    search(query) {
-      const words = query.toLowerCase().split(/\s+/);
+    search(inquiry) {
+      const words = inquiry.toLowerCase().split(/\s+/);
       return this.recipes.filter(recipe =>
         words.every(w =>
           recipe.title.toLowerCase().includes(w) ||
