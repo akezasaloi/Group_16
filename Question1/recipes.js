@@ -43,4 +43,3 @@ class Recipe {
   console.log(book.search("water")); 	
   console.log("\nSearch for 'avocado':");
   console.log(book.search("avocado"));   
-  
