@@ -1,0 +1,20 @@
+ Creating a recipe book
+
+Input:
+
+-RecipeTitle as String
+-Ingredients as list of strings
+-Steps as list of strings
+-search ingredient as a string
+
+Process:
+
+1. Create an object called recipes
+2. Give it attributes, a list of ingredients and a list of steps.
+3. Create a function adds a recipe to the object Recipe
+4. Create a function that loops through the object and checks for the ingredient in the Recipe object.
+5. When it finds it it desplayes the recipe in a list format.
+
+Output:
+
+-Recipe as a list of objects
