@@ -18,4 +18,4 @@ def search_recipes(query):
 add_recipe("Chapati", ["Flour", "Water", "Oil"], ["Mix", "Roll", "Fry"])
 add_recipe("Fruit Salad", ["Mango", "Banana"], ["Chop", "Serve"])
 print(search_recipes("flour")) 
-print(search_recipes("mango"))
+
