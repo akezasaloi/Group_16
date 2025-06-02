@@ -9,12 +9,17 @@ Input:
 
 Process:
 
-1. Create an object called recipes
-2. Give it attributes, a list of ingredients and a list of steps.
-3. Create a function that adds a recipe to the object Recipe
-4. Create a function that loops through the object and checks for the ingredient in the recipe object.
-5. When it finds it, it displays the recipe in a list format.
+1. Create a recipe book. 
+
+2. Create a list of ingredients and a list of steps to prepare a certain recipe.
+
+3. Add the recipe to the recipe book
+
+4. If a user's inputted ingredient is in the recipe book display the corresponding recipe with its ingredients and steps in a list format.
+
+5. Otherwise repeat step 4 until you match the searched ingredient with one of the ingredients in the recipe book. 
+
 
 Output:
 
--Recipe as a list of objects
+-Recipe as lists of steps and ingredients
