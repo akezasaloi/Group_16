@@ -13,7 +13,7 @@ Process:
 
 2. Create a list of ingredients and a list of steps to prepare a certain recipe.
 
-3. Add the recipe to the recipe book
+3. write the recipe in the recipe book
 
 4. If a user's inputted ingredient is in the recipe book display the corresponding recipe with its ingredients and steps in a list format.
 
