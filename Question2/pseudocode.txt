@@ -3,14 +3,19 @@ Creating a routing system that manages network congestion and ensures redundancy
 Input:
 -Data packets
 
-1.Declare a variable called network packet header that holds the packet's destination
-2.Create and initialise a counter(router) starting from zero
-3.Create an array ( routing table) that contains destinations of all network packets
-4.Create an empty array (routed network packets) that holds the routed network packets.
-5.Loop through the routing table and check if the network packet's destinations is its among destinations.
-6.When it finds it it adds the network packet with it's destination in the routednetwork packets array 
-7.Delete the assigned destination from the routing table to avoid congestion, redudancy and latency
-8.Display the routed network array.
+1.Create network packet header that holds the packet's destination
+
+3.Create a list called routing table with destinations of all network packets
+
+4.Create a list (routed network packets) that will contain the routed network packets
+
+5.If a network packet's destinations matches a destination in the routing table then write it in the routed network packets list 
+
+7.Delete that destination from the routing table to avoid congestion, redudancy and 
+
+8.Otherwise match item with the second item in the list of packet's destination and repeat step 5
+
+9.Display the routed network packets list
 
 Output:
--An array containing routed data packets.
+-An list of routed network packets.
