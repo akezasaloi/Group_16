@@ -4,12 +4,18 @@ Input:
 -Data packets
 
 1.Create network packet header that holds the packet's destination
+
 3.Create a list called routing table with destinations of all network packets
-4.Create a list (routed network packets) that will contain the routed network packets.
+
+4.Create a list (routed network packets) that will contain the routed network packets
+
 5.If a network packet's destinations matches a destination in the routing table then write it in the routed network packets list 
+
 7.Delete that destination from the routing table to avoid congestion, redudancy and 
+
 8.Otherwise match item with the second item in the list of packet's destination and repeat step 5
-9.Display the routed network packets list.
+
+9.Display the routed network packets list
 
 Output:
 -An list of routed network packets.
